@@ -4,9 +4,7 @@
 #### ![CFG](https://github.com/anamarijakrsteska/SI_2023_lab2_203232/assets/127669849/9ca923a8-d865-495a-9638-f046f697c28e)
 ### Цикломатска комплексност
 #### Цикломатската комплексност на овој код е 11, истата ја добив преку формулата P+1, каде што P е бројот на предикатни јазли. Во случајoв P=10, па цикломатската комплексност изнесува 11.
-### Тест случаи според критериумот Every statement
-####
-### Тест случаи според критериумот Every path
-####
-### Објаснување на напишаните unit tests
-####
+### Every branch
+#### [Every Branch.pdf](https://github.com/anamarijakrsteska/SI_2023_lab2_203232/files/11614249/Every.Branch.pdf)
+### Multiple Condition за: if (user==null || user.getPassword()==null || user.getEmail()==null)
+#### Доколку е задоволен условот во тој случај ќе се фрли exeption 'throw new RuntimeException("Mandatory information missing!")' и програмата ќе заврши,во спротивно #### ќе продолжи со извршување.
